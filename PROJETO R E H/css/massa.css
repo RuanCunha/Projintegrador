@@ -1,0 +1,757 @@
+body{
+	font-size: 15px; 
+	background-color: #1C1C1C; 
+}
+
+
+/*topo*/
+#topo{
+	color: white;
+	width: 100%;
+}
+
+#logo{
+	width: 4.2%;
+	float:left;
+	margin-left: 35%;
+	border-radius: 50%;
+	margin-top: 3%;
+}
+
+#palav{
+	width: 11%;
+	float:left;
+	margin-top: 3%;
+}
+
+.divider{
+	clear: both;
+}
+
+/*menu*/
+.menu{
+	width: 100%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#alinocanto{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+h1{
+	width: 30%;
+
+}
+
+#bemvindo{
+	margin-left: 38%;
+}
+
+#emailsucesso{
+	border: 3px solid black;
+	width: 50%;
+	padding: 50px;
+	background-color: #350404;
+	margin-left: 25%;
+}
+
+#bemvinda{
+	margin-top: 5%;
+	width: 25%;
+	margin-left: 115%;
+	border-radius: 100px;
+}
+
+#bemvindaa{
+	margin-top: 5%;
+	width: 85%;
+	margin-left: 85%;
+	border-radius: 100px;
+}
+
+#bemvindaaa{
+	margin-top: 5%;
+	width: 85%;
+	margin-left: 75%;
+	border-radius: 100px;
+}
+
+.item.menu{
+	font-style: oblique;
+	font-weight: normal;
+	background-color: #1C1C1C;
+	width: 15%;
+	float: left;
+	margin-left: 4%;
+	margin-top: 1%;
+	font-size: 150%;
+	text-align: center;
+	padding: 1.44%;
+	color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 10%;
+  background: #f1f1f1;
+  margin-top: 2%;
+  margin-left: 4%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 5%;
+  padding: 10px;
+  background: #350404;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  margin-top: 2%;
+}
+
+form.example button:hover {
+  background: #350404;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a{
+	color:#000;
+}
+
+a:visited{
+	color: white;
+}
+
+.item.menu:hover{
+	background-color: #350404;
+	color: white;
+	font-weight: bold;
+}
+
+.jooj{
+	margin-left: 2%;
+	border-left: 10px solid #350404;
+	width: 100%;
+	color: white;
+	font-size: 150%;
+	float: left;
+}
+
+.joguitos{
+	margin-left: 10%;
+}
+
+h1{
+	color: white;
+	font-size: 43px;
+	margin-left: 10%;
+}
+
+.titulos{
+	float: left;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	margin-left: 10%;
+}
+
+.rexview{
+	float: left;
+	margin-left: 40%;
+	width: 14%;
+	background-color: #350404;
+	border-radius: 50%;
+}
+
+.caracteristicas{
+	float: left;
+	font-size: 25px;
+	color: white;
+}
+
+.descricao{
+	margin-left: 8%;
+	margin-right: 10%;
+	float: left;
+	font-size: 25px;
+	color: white;
+}
+
+.nots{
+	margin-left: 8%;
+	float: left;
+	background-color: #350404;
+	border-radius: 10%;
+	width: 6%;
+	height: 60px;
+	padding-right: 1.5%;
+	padding-top: 0.3%;
+}	
+
+.nota{
+	font-size: 220%;
+	margin-left: 30%;
+	color: white;
+}
+
+.avaliacao{
+	margin-left: 8%;
+	color: white;
+	font-size: 150%;
+}
+
+.avaliacg{
+	margin-left: 8%;
+	width: 10%;
+}
+.avaliacr{
+	margin-left: 8%;
+	width: 7%;
+}
+.avaliacy{
+	margin-left: 8%;
+	width: 8%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 60%;
+  margin-left: 22%;
+  height: auto;
+}
+
+.mySlides {
+  display: none;
+  margin-left: 20%;
+}
+
+.cursor {
+  cursor: pointer;
+  float: left;
+}
+
+#selecao{
+	color: black;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Botão */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #1C1C1C;
+  padding: 2px 16px;
+  color: white;
+}
+.row {
+	margin-left: 20%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.columna {
+  float: left;
+  margin-left: 10%;
+  width: 42.5%;
+  color: white;
+  background-color: #1C1C1C;
+}
+
+h3{
+	font-size: 24px;
+	margin-left: 6%;
+	color: white;
+}
+h4{
+	font-size: 28px;
+	margin-left: 20%;
+	margin-bottom: 1%;
+	margin-top: 2%;
+}
+
+.demo {
+  opacity: 0.7;
+  float: left;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+li{
+	color: white;
+}
+
+.tab{
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	font-size: 24px;
+	border:2px solid white;
+	padding: 10px;
+	background: black;
+	cursor:pointer;
+	color: white;
+	text-decoration: none;
+}
+
+.tab:hover{
+	background: #350404;
+}
+
+.conteudo{
+	margin-left: 5%;
+	border:2px solid #ccc;
+	width: 50%;
+	margin-top: 11px;
+	padding: 20px;
+	background-color: #1C1C1C;
+}
+
+#resenho{
+	margin-left: 25%;
+	margin-bottom: 3%;
+}
+
+.labelcadastro{
+	font-size: 90%;
+}
+
+.losenha{
+	margin-top: 1%;
+	font-style: oblique;
+	font-weight: normal;
+	color: white;
+	font-size: 120%;
+	float: left;
+	margin-left: 29%;
+}	
+
+.losenhaa{
+	font-style: oblique;
+	font-weight: normal;
+	color: white;
+	font-size: 120%;
+	float: left;
+	margin-left: 29%;
+}	
+
+#botaco{
+	cursor: pointer;
+	width: 100%;
+	background:#350404;
+    color:#ffffff;
+    border:0.1px solid white;
+}
+
+#cadastt{
+	font-size: 15px;
+	color: white;
+}
+
+#logi{
+	color: black;
+	border-radius: 10px;
+}
+
+#senh{
+	color: black;
+	border-radius: 10px;
+}
+
+#destaq{
+	width:20%;
+	margin-left: 10%;
+	border-radius: 50%;
+	margin-top: 3%;
+	margin-bottom: 1%;
+}
+
+#destaqu{
+	width:20%;
+	margin-left: 8%;
+	border-radius: 50%;
+	margin-top: 3%;
+	margin-bottom: 1%;
+}
+
+#buteco{
+	cursor: pointer;
+	background-color: #350404;
+	color: white;
+	margin-top: 2%;
+	font-size: 16px;
+	border-radius: 50px;
+	border: 1px solid white;
+	height:45px;
+	font-weight: bold;
+	margin-left: 5%;
+	margin-bottom: 3%;
+}
+
+
+#resen{
+	width: 55%;
+	color: black;
+	height: 130px;
+	border-radius: 20px;
+}
+
+#comen{
+	margin-left: 3%;
+	margin-top: 1.5%;
+	width: 55%;
+	color: black;
+	height: 130px;
+	border-radius: 20px;
+	float: left;
+}
+
+#cadastres{
+	margin-left: 6%;
+}
+
+#butecao{
+	width: 10%;
+	cursor: pointer;
+	font-size: 16px;
+	background-color: #350404;
+	color: white;
+	margin-top: 2%;
+	border-radius: 50px;
+	border: 1px solid white;
+	height:60px;
+	font-weight: bold;
+	margin-bottom: 3%;
+}
+
+#butecaso{
+	cursor: pointer;
+	font-size: 16px;
+	background-color: #350404;
+	color: white;
+	margin-left: 10%;
+	margin-top: 0.5%;
+	border-radius: 50px;
+	height:50px;
+	font-weight: bold;
+	margin-bottom: 5%;
+}
+
+#butecasso{
+	width: 7%;
+	cursor: pointer;
+	font-size: 16px;
+	background-color: #350404;
+	color: white;
+	margin-top: 2%;
+	float: right;
+	margin-right: 10%;
+	border-radius: 50px;
+	border: 1px solid white;
+	height:60px;
+	font-weight: bold;
+	margin-bottom: 3%;
+}
+
+#inputes{
+	border-radius: 50px;
+	width: 20%;
+	height: 30px;
+	color: black;
+}
+
+#inputess{
+	border-radius: 50px;
+	width: 190%;
+	color: black;
+}
+
+#inputesss{
+	border-radius: 50px;
+	width: 5%;
+	height: 30px;
+	color: black;
+}
+
+#nota2{
+	float: left;
+}
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.contaiiner {
+  position: relative;
+  width: 50%;
+  max-width: 250px;
+  margin-left: 6%;
+  float: left;
+}
+
+.contaiiner1 {
+  position: relative;
+  width: 50%;
+  max-width: 250px;
+  margin-left: 1%;
+  float: left;
+}
+
+/* Make the image to responsive */
+
+.image {
+  width: 130%;
+  float: left;
+  height: 230px;
+}
+h2{
+	margin-left: 2%;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {	
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 130%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  list-style-type:none;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.contaiiner:hover .overlay {
+  opacity: 1; 
+}
+
+.contaiiner1:hover .overlay {
+  opacity: 1;
+}
+
+.contaiiner div a{
+   text-decoration: none;
+}
+
+.contaiiner1 div a{
+   text-decoration: none;
+}
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #350404 !important;
+    margin-top: 70%;
+
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+.checked {
+    width: 10px;
+}  
+
+.card-inner{
+    margin-left: 4rem;
+}
+
+#avatar{
+	border-radius: 100%;
+	width:9%;
+	height:auto;
+	margin-left: 8%;
+	float: left;
+}
+
+#avatarOutros{
+	border-radius: 100%;
+	width:10%;
+	height:auto;
+	margin-left: 1%;
+	float: left;
+}
+
+.comentarios{
+	float: left;
+	border: 1px solid grey;
+	margin-left: 8%;
+	width: 80%;
+	height: 60%;
+}
+
+.coments{
+	font-size: 16px;
+	color: gray;
+	margin-left: 13%;
+	margin-right: 2%;
+}
+
+.nomeUsuario{
+	font-size: 20px;
+	margin-left: 2%;
+}
+
+.comentarioResposta{
+	margin-left: 14%;
+	border: 1px solid grey;
+	margin-right: 2%;
+	margin-top: 4%;
+	width: 80%;
+	height: 220px;
+}
+
+#botaoComentario{
+	margin-top: 1%;
+	cursor: pointer;
+	font-size: 14px;
+	background-color:#350404; 
+	color:white;
+	border: 1px solid #350404;
+	margin-left: 80%;
+}
+
